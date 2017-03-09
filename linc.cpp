@@ -11,6 +11,7 @@ Linc::Linc(Pin* _pin_tx, Pin* _pin_rx, uint8_t _master) {
 	pin_tx = _pin_tx;
 	pin_rx = _pin_rx;
 	pin_tx->output();
+	pin_rx->input();
 	// seta bittime padrão em us
 	this->bittime = 50;
 	// inicializa array de actions
