@@ -2,6 +2,7 @@
 #include "linc.h"
 #include <util/delay.h> // para _delay_us
 #include "pin.h"
+#include "new.h"
 
 Linc *linc;
 

@@ -15,6 +15,7 @@
 #include <util/atomic.h> // para atomic
 #include <util/setbaud.h> // uart
 #include "pin.h"
+#include "new.h"
 
 class Linc
 {
